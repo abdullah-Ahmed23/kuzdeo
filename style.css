@@ -1,0 +1,389 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  
+}
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(0, 195, 255);    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid rgb(0, 89, 255);  /* creates padding around scroll thumb */
+}
+body {
+  background-image: url(blue_bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 33px 40px;
+  padding: 1px;
+}
+
+.header .nav .imgpp:hover {
+  padding: 0 0;
+}
+
+header .nav img {
+  width: 100px;
+  position: relative;
+  top: 20px;
+}
+header .nav a {
+  margin: 20px;
+  text-decoration: none;
+  color: #68787e;
+  transition: all 0.3s ease;
+  background-color: #e5f4fb;
+}
+header .nav a:hover {
+  color: #ffffff;
+  padding: 0px 20px;
+  background-color: #6e5174;
+  border-radius: 20px;
+}
+
+header .login {
+  margin-top: 30px;
+  margin-right: 22px;
+}
+header .login a {
+  margin-top: 30px;
+  margin-right: 22px;
+  text-decoration: none;
+  padding: 8px 35px;
+  color: #68787e;
+  background-color: #fff;
+  border-radius: 50px;
+  transition: 0.3s ease;
+}
+header .login a:hover {
+  color: #ffffff;
+  background-color: #3b1750;
+}
+header .nav .active {
+  border-bottom: solid #6e5174 3px;
+  border-radius: 2px;
+}
+.main {
+  display: flex;
+  margin: 20px 12vh;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.down-arrow {
+  position: absolute;
+  top: calc(100vh - 80px);
+  left: calc(50% - 14px);
+  width: 0;
+  height: 30px;
+  border: 2px solid;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.down-arrow:after {
+  content: " ";
+  position: absolute;
+  top: 12px;
+  left: -10px;
+  width: 16px;
+  height: 16px;
+  border-bottom: 4px solid;
+  border-right: 4px solid;
+  border-radius: 4px;
+  transform: rotateZ(45deg);
+}
+.down-arrow {
+  animation: jumpInfinite 1.5s infinite;
+}
+@keyframes jumpInfinite {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 20px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+.imgo .one img {
+  width: 600px;
+}
+
+.imgo .two {
+  position: relative;
+}
+.imgo .two img {
+  position: absolute;
+  top: -65vh;
+  left: 17vh;
+  width: 237px;
+}
+.imgo .three {
+  position: relative;
+}
+.imgo .three img {
+  opacity: 0.9;
+  position: absolute;
+  top: -31vh;
+  left: 10vh;
+  width: 333px;
+}
+.text h1 {
+  font-size: 3rem;
+  color: #627178;
+}
+.text h1 span {
+  color: #6e5174;
+}
+.text p {
+  margin-left: 7px;
+  color: #68787e;
+}
+.imgo .four {
+  position: relative;
+}
+.imgo .four img {
+  position: absolute;
+  top: -31vh;
+  right: 38vh;
+  width: 235vh;
+}
+.content {
+  width: 100%;
+  height: 100vh;
+  margin-top: 20vh;
+  position: relative;
+}
+.content .img {
+  position: relative;
+}
+.content .img img {
+  margin: auto 20vh;
+}
+.con {
+  position: absolute;
+  bottom: 82vh;
+  display: flex;
+  justify-content: space-around;
+  left: 56vh;
+}
+.unodiv {
+  position: relative;
+  top: 7vh;
+  right: 46vh;
+  text-align: center;
+}
+.trodiv {
+  position: relative;
+  top: 38vh;
+  right: 11vh;
+
+  text-align: center;
+}
+.trizodiv {
+  width: 250px;
+  position: relative;
+  top: 61vh;
+  left: 15vh;
+  text-align: center;
+}
+.unodiv p {
+  font-size: 11px;
+  color: #949595;
+}
+.trodiv p {
+  font-size: 11px;
+  color: #949595;
+}
+.trizodiv p {
+  font-size: 10px;
+  font-weight: 700;
+  color: #949595;
+}
+.con h1 {
+  font-size: 15px;
+  color: #949595;
+}
+.kuzdeo {
+  margin-top: -26vh;
+  margin-left: 7vh;
+  overflow: hidden;
+  position: relative;
+}
+.kuzdeo img {
+  width: 500px;
+}
+.kuzdeo .text {
+  position: relative;
+  top: -32vh;
+  left: 12vh;
+  overflow: hidden;
+}
+.kuzdeo .text p,
+.kuzdeo .text h1 {
+  color: #fff;
+}
+.swipe {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 52px 0vh;
+  padding: 0 12vh;
+}
+.imo {
+  position: relative;
+  left: -2vh;
+}
+.imo img {
+  width: 510px;
+}
+.t {
+  text-align: center;
+}
+.t .text {
+  position: relative;
+  left: 4vh;
+  top: -5vh;
+}
+.t .text h1 {
+  font-size: 18px;
+}
+.o img {
+  margin: 20px;
+  width: 300px;
+}
+.th img {
+  width: 286px;
+  margin: 28px;
+}
+footer {
+  margin-top: 9vh;
+  position: relative;
+  bottom: -38vh;
+  padding: 100px 61px 40px;
+  height: 42vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.sec-one{
+  margin: 0 12vh;
+}
+.sec-one .playstore{
+  margin: 0px -12px;
+  display: flex;
+    align-items: center;
+
+}
+.sec-one .playstore a{
+
+  text-decoration: none;
+  margin-left: 40px;
+  transition: 0.3s ease;
+}
+.sec-one .playstore:hover a{
+  color: #fff;
+}
+.sec-one .apple:hover a {
+  color: #fff;
+}
+
+.sec-one .playstore img{
+  position: relative;
+    left: 2vh;
+}
+.sec-one .apple{
+  margin: 0px 30px;
+  display: flex;
+    align-items: center;
+
+}
+.sec-one .apple a{
+
+  text-decoration: none;
+  margin-left: 40px;
+  transition: 0.3s ease;
+
+}
+.sec-one .apple img{
+  position: relative;
+    left: 2vh;
+}
+.sec-one .playstore , .sec-one .apple{
+  border: 5px solid white;
+  padding: 0px 13px;
+  background-color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.sec-one .playstore:hover{
+  background-color: #3b1750;
+  border: 5px solid #3b1750;
+  color: white;
+}
+.sec-one .apple:hover{
+  background-color: #3b1750;
+  border: 5px solid #3b1750;
+  color: white;
+}
+.sec-two{
+  position: relative;
+}
+.sec-two img {
+  width: 800px;
+  width: 800px;
+    position: absolute;
+    top: -54vh;
+    left: -80vh;
+}
+.sec-one .app {
+  display: flex;
+  margin: 0px -29px;
+}
+.sec-one .icons{
+  margin: 22px -50px;
+}
+.sec-one .icons a{
+  margin: 10px;
+}
+.sec-one nav{
+  margin: 10px -63px;
+}
+.sec-one nav a{
+  margin: 20px;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s ease;
+}
+.sec-one nav a:hover{
+  color: #3b1750;
+}
+.bg {
+  background: url(../Group\ 1131.png);
+
+  background-repeat: no-repeat;
+
+  width: 184vh;
+  height: 80vh;
+
+  margin: -37px;
+  position: relative;
+}
