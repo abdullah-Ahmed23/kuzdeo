@@ -254,6 +254,24 @@ header .nav .active {
 .imo img {
   width: 510px;
 }
+.imo i{
+  position: absolute;
+    top: 23vh;
+    
+    margin: 7px;
+    font-size: 40px;
+}
+.imo .text{
+  
+  position: relative;
+    top: -4vh;
+    left: 2vh;
+    text-align: center;
+}
+.imo .text h1{
+  font-size: 1rem;
+}
+
 .t {
   text-align: center;
 }
