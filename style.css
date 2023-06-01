@@ -20,7 +20,7 @@ body::-webkit-scrollbar-thumb {
   border: 3px solid rgb(0, 89, 255);  /* creates padding around scroll thumb */
 }
 body {
-  background-image: url(blue_bg.png);
+  background-image: url(blue_bg1.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -80,7 +80,7 @@ header .nav .active {
 }
 .main {
   display: flex;
-  margin: 20px 12vh;
+  margin: 20px 20vh;
   padding: 10px;
   justify-content: space-between;
   align-items: center;
@@ -123,7 +123,7 @@ header .nav .active {
   }
 }
 .imgo .one img {
-  width: 600px;
+  width: 645px;
 }
 
 .imgo .two {
@@ -131,19 +131,19 @@ header .nav .active {
 }
 .imgo .two img {
   position: absolute;
-  top: -65vh;
-  left: 17vh;
-  width: 237px;
+    top: -71vh;
+    left: 13vh;
+    width: 310px;
 }
 .imgo .three {
   position: relative;
 }
 .imgo .three img {
-  opacity: 0.9;
+  opacity: 1.9;
   position: absolute;
-  top: -31vh;
-  left: 10vh;
-  width: 333px;
+  top: -28vh;
+  left: 5vh;
+  width: 431px;
 }
 .text h1 {
   font-size: 3rem;
@@ -160,10 +160,12 @@ header .nav .active {
   position: relative;
 }
 .imgo .four img {
+
   position: absolute;
-  top: -31vh;
-  right: 38vh;
-  width: 235vh;
+  top: -23vh;
+  right: 34vh;
+  width: 243vh;
+
 }
 .content {
   width: 100%;
@@ -175,7 +177,7 @@ header .nav .active {
   position: relative;
 }
 .content .img img {
-  margin: auto 20vh;
+  margin: auto 23vh;
 }
 .con {
   position: absolute;
@@ -186,9 +188,9 @@ header .nav .active {
 }
 .unodiv {
   position: relative;
-  top: 7vh;
-  right: 46vh;
-  text-align: center;
+    top: 10vh;
+    right: 43vh;
+    text-align: center;
 }
 .trodiv {
   position: relative;
@@ -200,10 +202,14 @@ header .nav .active {
 .trizodiv {
   width: 250px;
   position: relative;
-  top: 61vh;
-  left: 15vh;
+  top: 65vh;
+  left: 17vh;
   text-align: center;
 }
+.trizodiv img{
+  max-width: 100%;
+}
+
 .unodiv p {
   font-size: 11px;
   color: #949595;
@@ -302,7 +308,7 @@ footer {
   justify-content: space-between;
 }
 .sec-one{
-  margin: 0 12vh;
+  margin: 0 22vh;
 }
 .sec-one .playstore{
   margin: 0px -12px;
@@ -366,11 +372,10 @@ footer {
   position: relative;
 }
 .sec-two img {
-  width: 800px;
-  width: 800px;
-    position: absolute;
-    top: -54vh;
-    left: -80vh;
+  width: 863px;
+  position: absolute;
+  top: -57vh;
+  left: -89vh;
 }
 .sec-one .app {
   display: flex;
@@ -396,12 +401,11 @@ footer {
 }
 .bg {
   background: url(../Group\ 1131.png);
-
   background-repeat: no-repeat;
-
-  width: 184vh;
-  height: 80vh;
-
-  margin: -37px;
+  background-size: cover;
+  height: 81vh;
+  background-size: c;
+  width: 191vh;
+  margin: -97px;
   position: relative;
 }
